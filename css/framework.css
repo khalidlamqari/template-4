@@ -1,0 +1,151 @@
+/* Start components */
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    font-size: 13px;
+    border-radius: 6px;
+    background-color: #eee;
+    padding: 4px 8px;
+}
+
+
+/*start switch  */
+   .toggle-checkbox{
+      display: none;
+    }
+    .toggle-switch{
+        background-color: #ccc;
+        width: 78px;
+        height: 32px;
+        border-radius: 16px;
+        position: relative;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .toggle-switch::before{
+        font-family: var(--fa-style-family-classic);
+        content: "\f00d";
+        position: absolute;
+        font-weight: 900;
+        background-color: white;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        top: 4px;
+        left: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+        transition: .3s;
+    } 
+    .toggle-checkbox:checked + .toggle-switch{
+        background-color: var(--blue-color);
+    }
+    .toggle-checkbox:checked + .toggle-switch::before{
+        left: 50px;
+        content: "\f00c";
+        color: var(--blue-color);
+    }
+/* End switch */
+
+/* End components */
+
+.c-orange{
+    color: var(--orange-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-blue{
+    color: var(--blue-color);
+}
+.c-red{
+    color: var(--red-color);
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-white{
+   color: white;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 14px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.b-white{
+    background-color: white;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-6{
+    border-radius: 6px;
+}
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+.bg-grey{
+    background-color: var(--grey-color);
+}
+.l-blue{
+    background-color: rgb(176 204 255);
+}
+.l-red{
+    background-color: rgb(244 67 54 / 20%);
+}
+.l-orange{
+    background-color: rgb(245 158 11 / 20%);
+}
+.l-green{
+    background-color: rgb(34 197 94 / 20%);
+}
+
+
+.txt-c{
+    text-align: center;
+}
